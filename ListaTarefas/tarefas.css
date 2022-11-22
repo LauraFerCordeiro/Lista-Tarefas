@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Fonte;
+    src: url("Mogena.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: rgba(126, 122, 122, 0.788) !important;
+}
+
+h1{
+    font-family: Fonte;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+#ragatanga{
+    text-align: center;
+}
+
+#entrada{
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#txt_tarefa{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#botao_tarefa{
+    font-size: 20px;
+    width: 30px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+#lista_tarefas{
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+    width: 500px;
+    list-style-type: none;
+}
+
+.item{
+    font-size: 20px;
+    background-color: rgb(144, 167, 185);
+    border-radius: 30px;
+    color: black;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color: rgba(172, 255, 47, 0.397);
+}
+
+#edicao{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: grey;
+    border: 1px solid rgb(255, 255, 255);
+    width: 415px;
+    border-radius: 12px;
+    z-index: 200;
+    display: none;
+}
+
+#edicao.abrir{
+    display: block !important;
+}
+
+#fundo_edicao{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(73, 67, 67);
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    z-index: 100;
+    display: none;
+}
+
+#fundo_edicao.abrir{
+    display: block !important;
+}
+
+.important{
+    background-color: red;
+    font-style: oblique;
+}
+
+#favoritos_div{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    list-style-type: none;
+}
+
+#favoritos_div > * {
+    margin-bottom: 10px;
+}
+
+.item > * {
+    margin-bottom: 10px;
+}
+
+.favoritos{
+    margin-top: 10px;
+}
+
+#exclusao{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgba(73, 67, 67, 0.815);
+}
+
+#conclusao{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgba(73, 67, 67, 0.815);
+}
+
+.name_tabel{
+    text-align: center;
+}
+
+#dividir{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#tabela2{
+    grid-column: 2;
+    margin-right: 80px;
+    text-align: center;
+}
+
+#tabela1{
+    grid-column: 1;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.favoritar{
+    margin: 5px;
+    width: 30px;
+}
+
+.editar{
+    margin: 5px;
+    width: 30px;
+}
+
+.tchau{
+    margin: 5px;
+    width: 30px;
+}
+
+#fav_t{
+    background-color: rgba(0, 0, 0, 0.37);
+    border: 1px;
+    border-radius: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+#hr{
+    color: white;
+}
+
+#nome_edit{
+    color: white;
+}
+
+#txt_tarefa_edicao{
+    border-radius: 10px;
+}
+
+#fechar_janela{
+    width: 30px;
+}
+
+#atualizar{
+    width: 60px;
+}
